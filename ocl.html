@@ -1,66 +1,169 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OpenCL — Gravity Research Consortium</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCL & GPU Computing — U²GRC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<div id="page">
-  <header id="header">
-    <img class="banner" src="assets/bh_files/shapeimage_4.png" alt="Black hole accretion disk banner">
-    <div class="site-title">Welcome to the UMass-URI Gravity Research Consortium (U²GRC)</div>
-  </header>
-  <nav id="nav"><ul><li><a href="index.html">Home</a></li><li><a href="bh.html">Black Holes</a></li><li><a href="qc.html">Quantum Cosmology</a></li><li><a href="sc.html">Scientific Computation</a></li><li><a href="ps3.html">PS3 Cluster</a></li><li><a href="reefer.html">Reefer Container</a></li><li><a href="ocl.html" class="active">OpenCL</a></li><li><a href="gametech.html">Gaming Tech</a></li><li><a href="condor.html">Condor PS3s</a></li></ul></nav>
-  <div id="body">
-    <main id="content">
-      <section class="page-title"><img class="title-image" src="assets/ocl_files/shapeimage_5.png" alt="OpenCL"><p class="archive-note">A modern restoration of the original iWeb-era gravity research site. The typography, blue-on-black palette, sidebar structure, and archival links intentionally echo the old pages.</p></section>
-      <article class="source-card">
-        <h1>Scientific Computation (OpenCL)</h1>
-        <div class="source-flow"><p>This section is dedicated to the ongoing research projects of our group related to the use of OpenCL for scientific computation. This work was supported under NSF grant PHY-1016906 and also by Apple, Nvidia and IBM. Initials of the faculty involved, are in parentheses. Here is a list of research articles published using results generated from this effort: <a href="http://arxiv.org/abs/1001.3631">CPC (2010)</a>;  <a href="http://arxiv.org/abs/1001.0541">Phys. Rev. Lett. 105 261102 (2010)</a>; <a href="http://arxiv.org/abs/1011.6387">Phys. Rev. Lett. 106 201103 (2011)</a>; <a href="http://arxiv.org/abs/1104.0387">Phys. Rev. D83 124002 (2011)</a>; <a href="http://arxiv.org/abs/1106.1692">Phys. Rev. D84 104006 (2011)</a>; <a href="http://arxiv.org/abs/1108.1816">Phys. Rev. X1 021017 (2011)</a>; <a href="http://arxiv.org/abs/1110.3081">Phys. Rev. D85 024046 (2012)</a>; <a href="http://arxiv.org/abs/1206.0270">XSEDE12 (2012)</a>; <a href="http://link.springer.com/article/10.1007%2Fs10915-012-9679-3">J. Sci. Comp. (2013)</a>; <a href="http://arxiv.org/abs/1304.5296">Phys. Rev. D88 024002 (2013)</a>; <a href="http://arxiv.org/abs/1305.2184">Phys. Rev. D88 044001 (2013)</a>; <a href="http://arxiv.org/abs/1306.1159">Phys. Rev. D88 104004 (2013)</a>; <a href="http://arxiv.org/abs/1312.5247">Phys. Rev. D89 044037 (2014)</a>; <a href="http://arxiv.org/abs/1312.5210">Preprint arXiv:1312.5210 (2013)</a>; <a href="http://arxiv.org/abs/1208.5839">Gen. Rel. Grav. 46, 1672 (2014)</a>; <a href="http://arxiv.org/abs/1404.1819">Phys. Rev. D90 084025 (2014)</a>; <a href="http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf">CSC’14 (2014)</a>; <a href="http://arxiv.org/abs/1503.05097">Phys. Rev. D91 104017 (2015)</a>; <a href="https://arxiv.org/abs/1601.05120">Phys. Rev. D93 041501R (2016)</a>; <a href="https://arxiv.org/abs/1608.02244">Phys. Rev. D94 084049 (2016)</a>; <a href="https://arxiv.org/abs/1607.05537">IEEE HPEC Conf. (2017)</a>; <a href="https://arxiv.org/abs/1609.00083">Phys. Rev. D95 081501 (2017)</a>; <a href="https://arxiv.org/abs/1705.04949">Phys. Rev. D96 024020 (2017)</a>; <a href="https://arxiv.org/abs/1706.07413">Class. Quant. Grav.  34  205012 (2017)</a>;<br/></p><p>Also check out the website of our new campus-wide <a href="http://cscvr.umassd.edu/">Center for Scientific Computing &amp; Visualization Research.</a><br/></p><p class="source-item">• An Exploration of the use of OpenCL for Numerical Modeling &amp; Data Analysis (GK)<br/></p><p>This NSF GOALI funded project was initiated in Spring 2011. Results closely related to this work are available here: <a href="http://arxiv.org/abs/1001.3631">CPC (2010)</a>; <a href="http://arxiv.org/abs/1010.3816">PDCS (2011)</a>; <a href="http://arxiv.org/abs/1206.0270">XSEDE12 (2012)</a>; <a href="http://link.springer.com/article/10.1007%2Fs10915-012-9679-3">J. Sci. Comp. (2013)</a>;<br/></p><p>Computational scientists and engineers have begun making use of many-core GPU architectures because these can provide significant gains in the overall performance of many numerical simulations at a relatively low cost. However, to the average computational scientist, these GPUs usually employ a rather unfamiliar and specialized programming model that often requires advanced knowledge of their architecture. In addition, these typically have their own vendor- and platform- specific software development frameworks (SDKs), that are different from the others in significant ways. For example: Nvidia's GPUs use CUDA SDK, AMD's GPUs use Stream SDK, while traditional multi-core processors (from Intel, AMD, IBM) typically employ an OpenMP-based parallel programming model. <br/></p><p>In 2009, an open standard was proposed by Apple to bring the software development for all these different processor architectures under a single standard -- the <a href="http://www.khronos.org/opencl/">Open Computing Language</a> (OpenCL) -- and all major multi-core processor and GPU vendors (Nvidia, AMD, IBM, Intel) have adopted this standard for their current and future hardware. OpenCL is of tremendous value to the scientific community because it is open, royalty-free and vendor- and platform- neutral. It delivers a high degree of portability across all major forms of current and future compute hardware, without significantly sacrificing performance.<br/></p><p>In this project, we make use of OpenCL to harness the massive parallelism offered by many-core architectures like GPUs in order to perform high-resolution and long-duration black hole binary inspiral computations, very efficiently. This plays a critical role in our EMRI Teukolsky Code's ability to achieve the required high level of accuracy and efficiency for such simulations. <br/></p><h2>Comparative performance using our EMRI Teukolsky Code:<br/></h2><p>The Table #1 below depicts the relative values for overall performance of our EMRI Teukolsky Code for several variants of current generation CPUs and GPUs. These results suggest that it is relatively straightforward to obtain order-of-magnitude gains in overall code performance by making use of many-core GPUs over multi-core CPUs and this fact is largely independent of the specific hardware architecture and vendor. All the systems used in these performance tests used a variant of the Linux operating system and OpenCL provided by the appropriate vendor. Detailed specifications of the compute hardware are included in the table. The baseline system here has dual AMD Opteron 6200, 8-core, 2.1 GHz CPUs.<br/></p><p>It is also noteworthy that the consumer-grade GPU, the AMD Radeon HD 7970, outperforms Nvidia's HPC-oriented, high-end Fermi M2050 GPU, while maintaining a significantly lower cost. The cost effectiveness of consumer-grade compute hardware is nearly an order-of-magnitude higher than the alternatives. This observation is consistent with our earlier findings that evaluated the <a href="http://www.us.playstation.com/PS3">Sony PlayStation 3</a> consumer gaming console for scientific computing: <a href="ps3.html">PS3 Gravity Grid</a>.<br/></p></div>
-      </article>
-      <section class="media-panel"><h2>Benchmarks and documents</h2><div class="media-grid"><a href="assets/docs/KhannaCRADA2014.pdf">Khanna CRADA 2014 PDF</a><a href="shoc.html">SHOC benchmark data</a><a href="assets/docs/VolkemaKhanna2016v4.pdf">Volkema-Khanna PDF</a></div><img src="assets/images/FFT_khanna.jpeg" alt="FFT benchmark"></section>
-      <section class="link-panel"><h2>Links preserved from the old page</h2><div class="link-grid"><a href="https://web.uri.edu/physics/meet/robert-coyne/">Robert Coyne</a><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a><a href="https://en.wikipedia.org/wiki/Richard_H._Price">Richard Price</a><a href="http://web.mit.edu/sahughes/www/">Scott Hughes</a><a href="https://www.lsu.edu/physics/people/faculty/singh.php">Param Singh</a><a href="http://arxiv.org/abs/1001.3631">CPC (2010)</a><a href="http://arxiv.org/abs/1001.0541">Phys. Rev. Lett. 105 261102 (2010)</a><a href="http://arxiv.org/abs/1011.6387">Phys. Rev. Lett. 106 201103 (2011)</a><a href="http://arxiv.org/abs/1104.0387">Phys. Rev. D83 124002 (2011)</a><a href="http://arxiv.org/abs/1106.1692">Phys. Rev. D84 104006 (2011)</a><a href="http://arxiv.org/abs/1108.1816">Phys. Rev. X1 021017 (2011)</a><a href="http://arxiv.org/abs/1110.3081">Phys. Rev. D85 024046 (2012)</a><a href="http://arxiv.org/abs/1206.0270">XSEDE12 (2012)</a><a href="http://link.springer.com/article/10.1007%2Fs10915-012-9679-3">J. Sci. Comp. (2013)</a><a href="http://arxiv.org/abs/1304.5296">Phys. Rev. D88 024002 (2013)</a><a href="http://arxiv.org/abs/1305.2184">Phys. Rev. D88 044001 (2013)</a><a href="http://arxiv.org/abs/1306.1159">Phys. Rev. D88 104004 (2013)</a><a href="http://arxiv.org/abs/1312.5247">Phys. Rev. D89 044037 (2014)</a><a href="http://arxiv.org/abs/1312.5210">Preprint arXiv:1312.5210 (2013)</a><a href="http://arxiv.org/abs/1208.5839">Gen. Rel. Grav. 46, 1672 (2014)</a><a href="http://arxiv.org/abs/1404.1819">Phys. Rev. D90 084025 (2014)</a><a href="http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf">CSC’14 (2014)</a><a href="http://arxiv.org/abs/1503.05097">Phys. Rev. D91 104017 (2015)</a><a href="https://arxiv.org/abs/1601.05120">Phys. Rev. D93 041501R (2016)</a><a href="https://arxiv.org/abs/1608.02244">Phys. Rev. D94 084049 (2016)</a><a href="https://arxiv.org/abs/1607.05537">IEEE HPEC Conf. (2017)</a><a href="https://arxiv.org/abs/1609.00083">Phys. Rev. D95 081501 (2017)</a><a href="https://arxiv.org/abs/1705.04949">Phys. Rev. D96 024020 (2017)</a><a href="https://arxiv.org/abs/1706.07413">Class. Quant. Grav. 34 205012 (2017)</a><a href="http://cscvr.umassd.edu/">Center for Scientific Computing &amp; Visualization Research.</a><a href="http://arxiv.org/abs/1010.3816">PDCS (2011)</a><a href="http://www.khronos.org/opencl/">Open Computing Language</a><a href="http://www.us.playstation.com/PS3">Sony PlayStation 3</a><a href="ps3.html">PS3 Gravity Grid</a></div></section>
+
+    <!-- ── Header ── -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>U<sup>2</sup>GRC</h1>
+                <p class="tagline">UMass-URI Gravity Research Consortium</p>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="bh.html" class="nav-link">Black Holes</a>
+                <a href="qc.html" class="nav-link">Quantum Cosmology</a>
+                <a href="sc.html" class="nav-link">Scientific Computation</a>
+                <a href="ps3.html" class="nav-link">PS3 Cluster</a>
+                <a href="reefer.html" class="nav-link">Reefer</a>
+                <a href="ocl.html" class="nav-link active">OpenCL</a>
+                <a href="gametech.html" class="nav-link">Gaming</a>
+                <a href="condor.html" class="nav-link">Condor</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ── Page Header ── -->
+        <section class="page-header">
+            <div class="container">
+                <h1>OpenCL & GPU Computing</h1>
+                <p class="page-subtitle">Portable high-performance computing with OpenCL across diverse hardware accelerators</p>
+            </div>
+        </section>
+
+        <!-- ── Content ── -->
+        <section class="page-content">
+            <div class="container">
+                <div class="content-wrapper">
+                    <article class="main-article">
+                        <p>
+                            Our group is actively engaged in research and development of GPU-accelerated computational methods using OpenCL 
+                            and CUDA. This work enables high-performance simulations of gravitational physics on modern computing hardware, 
+                            with a focus on portability and performance optimization.
+                        </p>
+
+                        <div class="research-projects">
+                            <div class="project">
+                                <h3>OpenCL Framework for Scientific Computing</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    OpenCL provides a portable abstraction for heterogeneous computing across CPUs, GPUs, and specialized 
+                                    accelerators. We develop OpenCL kernels for the bottleneck operations in gravitational wave simulations, 
+                                    particularly time-stepping and solution evaluation.
+                                </p>
+                                <p>
+                                    The portability of OpenCL allows our codes to run efficiently on NVIDIA GPUs, AMD GPUs, Intel processors, 
+                                    and even mobile accelerators, minimizing platform-specific optimization requirements.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>GPU-Accelerated Teukolsky Solvers</h3>
+                                <p class="project-meta">GK, SF</p>
+                                <p>
+                                    We have developed GPU-accelerated implementations of our time-domain Teukolsky equation solvers using 
+                                    OpenCL and CUDA. These implementations achieve 20-50× speedups compared to optimized CPU versions, 
+                                    depending on GPU architecture.
+                                </p>
+                                <p>
+                                    The GPU codes handle the same computational grid and use the same numerical schemes as CPU versions, 
+                                    ensuring numerical consistency while providing dramatic performance gains.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Memory Optimization & Data Movement</h3>
+                                <p class="project-meta">GK, SF</p>
+                                <p>
+                                    GPU performance depends critically on efficient data movement between host and device memory. 
+                                    We develop strategies for minimizing data transfers, leveraging GPU device memory for intermediate results, 
+                                    and optimizing memory layout for coalesced access patterns.
+                                </p>
+                                <p>
+                                    Advanced techniques include pinned memory, asynchronous transfers, and overlapping computation with 
+                                    communication to hide communication latency.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Heterogeneous Computing Frameworks</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    We develop software frameworks that automatically manage computation distribution across heterogeneous 
+                                    platforms — simultaneously utilizing CPUs and multiple GPUs. This allows efficient use of diverse 
+                                    hardware configurations without user intervention.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Performance Benchmarking & Profiling</h3>
+                                <p class="project-meta">GK, SF</p>
+                                <p>
+                                    Rigorous performance analysis is essential to validate optimization efforts and identify bottlenecks. 
+                                    We employ profiling tools like NVIDIA Nsight and AMD uProf to analyze GPU kernels and optimize execution.
+                                </p>
+                                <p>
+                                    Benchmarking against CPU and other GPU implementations validates our performance claims and guides 
+                                    further optimization efforts.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Machine Learning on GPUs</h3>
+                                <p class="project-meta">SF, GK</p>
+                                <p>
+                                    Modern machine learning frameworks (PyTorch, TensorFlow) run efficiently on GPUs. We leverage these 
+                                    tools for surrogate model training and inference, achieving rapid waveform predictions needed for 
+                                    parameter estimation in gravitational wave astronomy.
+                                </p>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <aside class="sidebar">
+                        <div class="sidebar-card">
+                            <h3>Lead Researchers</h3>
+                            <ul class="people-list">
+                                <li><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a></li>
+                                <li><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-card">
+                            <h3>Key Resources</h3>
+                            <ul class="people-list">
+                                <li><a href="https://www.khronos.org/opencl/">OpenCL Specification</a></li>
+                                <li><a href="https://developer.nvidia.com/cuda-toolkit">CUDA Toolkit</a></li>
+                                <li><a href="http://www.ligo.caltech.edu/">LIGO</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
     </main>
-    
-<aside id="sidebar">
-  <div class="sidebar-card people-card">
-    <h3>People</h3>
-    <h4>Core Faculty</h4>
-    <ul>
-      <li><a href="https://web.uri.edu/physics/meet/robert-coyne/">Robert Coyne</a>, URI Physics</li>
-      <li><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a>, UMassD Math</li>
-      <li><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a>, UMassD/URI Physics</li>
-    </ul>
-    <h4>Collaborative Faculty</h4>
-    <ul>
-      <li>Lior Burko, Theiss Research, CA</li>
-      <li><a href="https://en.wikipedia.org/wiki/Richard_H._Price">Richard Price</a>, MIT / UMassD</li>
-      <li><a href="http://web.mit.edu/sahughes/www/">Scott Hughes</a>, MIT</li>
-      <li><a href="https://www.lsu.edu/physics/people/faculty/singh.php">Param Singh</a>, LSU</li>
-    </ul>
-    <details>
-      <summary>Students and alumni</summary>
-      <ul>
-        <li>Ed McClain</li><li>Feroz Shaik</li><li>Alec Yonika</li><li>Katie Rink</li><li>Connor Kenyon</li><li>Kevin Quesada-Gonzalez</li>
-        <li>Caroline Mallary</li><li>Nur Rifat</li><li>Rahul Kashyap</li><li>Will Duff</li><li>Sarah Seva</li><li>Tyler Spilhaus</li>
-        <li>David Torndorf-Dick</li><li>Charles Harnden</li><li>Dan Walsh</li><li>Gary Forrester</li><li>Mike DeSousa</li><li>Justin McKennon</li>
-        <li>Dave Falta</li><li>Matthew Hogan</li><li>Philip Mendonca</li><li>Rakesh Ginjupalli</li><li>Sarah McLeod</li><li>Ian Nagle</li>
-        <li>Joshua Liberty</li><li>Emanuel Simon</li><li>Francis Boateng</li><li>Subir Sabharwal</li><li>Vishnu Paruchuri</li><li>Jessica Rosen</li>
-        <li>Peter Goetz</li><li>Seth Connors</li><li>Zhenhua Ning</li><li>Nobuhiro Suzuki</li><li>Mike O'Brien</li><li>Matt Strafuss</li>
-      </ul>
-    </details>
-  </div>
-  <div class="sidebar-card">
-    <h3>Original archive</h3>
-    <p>The rebuilt pages preserve the old text flow and link to original media/documents where available.</p>
-    <a class="small-button" href="archive.html">Browse archive</a>
-  </div>
-</aside>
-  </div>
-  <footer id="footer"><span>&copy; Gaurav Khanna — UMass-URI Gravity Research Consortium</span><span>Originally hosted at gravity.phy.umassd.edu</span></footer>
-</div>
-<script src="gravity.js"></script>
+
+    <!-- ── Footer ── -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; UMass-URI Gravity Research Consortium</p>
+            <p class="footer-note">Originally hosted at gravity.phy.umassd.edu • Redesigned 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,66 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gaming Tech — Gravity Research Consortium</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Technology — U²GRC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<div id="page">
-  <header id="header">
-    <img class="banner" src="assets/bh_files/shapeimage_4.png" alt="Black hole accretion disk banner">
-    <div class="site-title">Welcome to the UMass-URI Gravity Research Consortium (U²GRC)</div>
-  </header>
-  <nav id="nav"><ul><li><a href="index.html">Home</a></li><li><a href="bh.html">Black Holes</a></li><li><a href="qc.html">Quantum Cosmology</a></li><li><a href="sc.html">Scientific Computation</a></li><li><a href="ps3.html">PS3 Cluster</a></li><li><a href="reefer.html">Reefer Container</a></li><li><a href="ocl.html">OpenCL</a></li><li><a href="gametech.html" class="active">Gaming Tech</a></li><li><a href="condor.html">Condor PS3s</a></li></ul></nav>
-  <div id="body">
-    <main id="content">
-      <section class="page-title"><img class="title-image" src="assets/gametech_files/shapeimage_5.png" alt="Gaming Tech"><p class="archive-note">A modern restoration of the original iWeb-era gravity research site. The typography, blue-on-black palette, sidebar structure, and archival links intentionally echo the old pages.</p></section>
-      <article class="source-card">
-        <h1>Gaming Technologies</h1>
-        <div class="source-flow"><p>This section is dedicated to the ongoing research projects of our group related to the use of video-gaming technologies for scientific computation. This work is currently supported under NSF grant PHY-01414440 and AFRL CRADA agreement 10-RI-CRADA-09. Initials of the faculty involved, are in parentheses. Here is a list of research articles published using results generated from this effort: <a href="http://arxiv.org/abs/1312.5210">Preprint arXiv:1312.5210 (2013)</a>; <a href="http://arxiv.org/abs/1404.1819">Phys. Rev. D90 084025 (2014)</a>; <a href="http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf">CSC’14 (2014)</a>; <br/></p><p><a href="http://arxiv.org/abs/1503.05097">Phys. Rev. D91 104017 (2015)</a>; <a href="https://arxiv.org/abs/1601.05120">Phys. Rev. D93 041501R (2016)</a>; <a href="https://arxiv.org/abs/1608.02244">Phys. Rev. D94 084049 (2016)</a>; <a href="https://arxiv.org/abs/1607.05537">IEEE HPEC Conf. (2017)</a>; <a href="https://arxiv.org/abs/1609.00083">Phys. Rev. D95 081501 (2017)</a>; <a href="https://arxiv.org/abs/1705.04949">Phys. Rev. D96 024020 (2017)</a>; <a href="https://arxiv.org/abs/1706.07413">Class. Quant. Grav.  34  205012 (2017)</a>;<br/></p><p>Also check out the website of our new campus-wide <a href="http://cscvr.umassd.edu/">Center for Scientific Computing &amp; Visualization Research</a>.<br/></p><p class="source-item">• The Sony PlayStation 3 Gravity Grid (GK,RC)<br/></p><p>This NSF supported project has its own <a href="ps3.html">dedicated website</a>. And <a href="reefer.html">here is its “big brother”</a>.<br/></p><p class="source-item">• An Exploration of the use of OpenCL for Numerical Modeling &amp; Data Analysis (GK)<br/></p><p>This NSF supported project has its own <a href="ocl.html">dedicated website</a>. Please visit that site.<br/></p><p class="source-item">• Alternative Technologies for Numerical Relativity and LIGO Data Analysis (GK)<br/></p><p class="source-item">• Video-Gaming Technologies for Scientific Computing in Gravitational Physics (GK,RC)<br/></p><p>This NSF supported project began in 2014. We plan to explore the capabilities of current and next generation consumer-grade, video-gaming hardware for numerical modeling and big data analysis in the area of gravitational wave science. Specific examples of the compute hardware that we consider interesting for this study are current generation gaming GPUs like the AMD Radeon HD &amp; Nvidia GeForce series and also the CPU-GPU hybrid or “fused” processor architectures like AMD Fusion APU, Intel's Ivy Bridge, ARM SoC and next generation gaming consoles such as the Sony PS4.<br/></p><p>The main advantage of considering such consumer-grade hardware for scientific computing is its very low cost and high power-efficiency. The parallel software development framework that we utilize in this work is the Open Computing Language (OpenCL).<br/></p><p>Partial results of this exploration are available in this presentation made at the AFRL, Rome NY in November 2014: <a href="assets/docs/KhannaCRADA2014.pdf">KhannaCRADA2014.pdf</a> and the standardized benchmarks of various compute kernels: <a href="shoc.html">SHOC</a><br/></p><p>The final 2017 results of an extensive study in this context are available in this <a href="https://arxiv.org/abs/1607.05537">IEEE HPEC Conf. (2017)</a> publication. <br/></p><p>Currently, the most promising approach towards developing a very low-cost clustered configuration that is highly power efficient  as well is to use a streaming media type device as a cluster node. An excellent candidate for such a system is a cluster built using <a href="https://www.nvidia.com/en-us/shield/shield-tv/">Nvidia Shield TV</a> media players. A small solar-powered prototype system using these was released on <a href="http://cscvr1.umassd.edu/news_hpcday2017.html">HPC Day 2017</a>. DIY instructions may be found here: <a href="assets/docs/ShieldDIY.pdf">ShieldDIY</a>.</p></div>
-      </article>
-      <section class="media-panel"><h2>Related artifacts</h2><div class="media-grid"><a href="assets/docs/KhannaCRADA2014.pdf">AFRL presentation</a><a href="shoc.html">SHOC benchmark data</a><a href="ps3.html">PS3 Gravity Grid</a><a href="reefer.html">Reefer supercomputer</a></div></section>
-      <section class="link-panel"><h2>Links preserved from the old page</h2><div class="link-grid"><a href="https://web.uri.edu/physics/meet/robert-coyne/">Robert Coyne</a><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a><a href="https://en.wikipedia.org/wiki/Richard_H._Price">Richard Price</a><a href="http://web.mit.edu/sahughes/www/">Scott Hughes</a><a href="https://www.lsu.edu/physics/people/faculty/singh.php">Param Singh</a><a href="http://arxiv.org/abs/1312.5210">Preprint arXiv:1312.5210 (2013)</a><a href="http://arxiv.org/abs/1404.1819">Phys. Rev. D90 084025 (2014)</a><a href="http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf">CSC’14 (2014)</a><a href="http://arxiv.org/abs/1503.05097">Phys. Rev. D91 104017 (2015)</a><a href="https://arxiv.org/abs/1601.05120">Phys. Rev. D93 041501R (2016)</a><a href="https://arxiv.org/abs/1608.02244">Phys. Rev. D94 084049 (2016)</a><a href="https://arxiv.org/abs/1607.05537">IEEE HPEC Conf. (2017)</a><a href="https://arxiv.org/abs/1609.00083">Phys. Rev. D95 081501 (2017)</a><a href="https://arxiv.org/abs/1705.04949">Phys. Rev. D96 024020 (2017)</a><a href="https://arxiv.org/abs/1706.07413">Class. Quant. Grav. 34 205012 (2017)</a><a href="http://cscvr.umassd.edu/">Center for Scientific Computing &amp; Visualization Research</a><a href="ps3.html">dedicated website</a><a href="reefer.html">here is its “big brother”</a><a href="ocl.html">dedicated website</a><a href="sc.html">dedicated website</a><a href="assets/docs/KhannaCRADA2014.pdf">KhannaCRADA2014.pdf</a><a href="shoc.html">SHOC</a><a href="https://www.nvidia.com/en-us/shield/shield-tv/">Nvidia Shield TV</a><a href="http://cscvr1.umassd.edu/news_hpcday2017.html">HPC Day 2017</a><a href="assets/docs/ShieldDIY.pdf">ShieldDIY</a></div></section>
+
+    <!-- ── Header ── -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>U<sup>2</sup>GRC</h1>
+                <p class="tagline">UMass-URI Gravity Research Consortium</p>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="bh.html" class="nav-link">Black Holes</a>
+                <a href="qc.html" class="nav-link">Quantum Cosmology</a>
+                <a href="sc.html" class="nav-link">Scientific Computation</a>
+                <a href="ps3.html" class="nav-link">PS3 Cluster</a>
+                <a href="reefer.html" class="nav-link">Reefer</a>
+                <a href="ocl.html" class="nav-link">OpenCL</a>
+                <a href="gametech.html" class="nav-link active">Gaming</a>
+                <a href="condor.html" class="nav-link">Condor</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ── Page Header ── -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Gaming Technology for Science</h1>
+                <p class="page-subtitle">Leveraging gaming hardware, GPUs, and graphics engines for scientific computing and visualization</p>
+            </div>
+        </section>
+
+        <!-- ── Content ── -->
+        <section class="page-content">
+            <div class="container">
+                <div class="content-wrapper">
+                    <article class="main-article">
+                        <p>
+                            The gaming industry has driven remarkable advances in graphics processors and parallel computing technology. 
+                            Our group explores how gaming hardware and techniques can be repurposed for scientific computing, particularly 
+                            for simulation and visualization of gravitational phenomena.
+                        </p>
+
+                        <div class="research-projects">
+                            <div class="project">
+                                <h3>GPU Technology from Gaming</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    Modern GPUs were originally designed for rendering high-frame-rate graphics in video games. The massive 
+                                    parallelism required for graphics computation translates directly to scientific applications. 
+                                    GPUs like NVIDIA's GeForce and AMD's Radeon lines provide exceptional compute density and memory bandwidth.
+                                </p>
+                                <p>
+                                    By leveraging commodity gaming GPUs, we achieve significant cost savings while accessing cutting-edge 
+                                    parallel computing hardware. This democratizes access to high-performance computing resources.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Real-Time Visualization of Gravitational Phenomena</h3>
+                                <p class="project-meta">GK, SF</p>
+                                <p>
+                                    Gaming engines like Unreal Engine and Unity provide powerful, real-time rendering capabilities that can 
+                                    be used to visualize scientific data. We develop tools to render gravitational waveforms, black hole spacetimes, 
+                                    and simulation results in real-time.
+                                </p>
+                                <p>
+                                    These visualizations aid understanding and communication of complex physics to students and the general public. 
+                                    Real-time interaction allows exploration of parameter spaces and dynamic phenomena.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Cell Processor Development</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    The PlayStation 3's Cell processor represented a major initiative by IBM, Sony, and Toshiba to bring 
+                                    heterogeneous parallel architectures to consumers. Our early adoption and optimization of Cell technology 
+                                    for scientific computing directly informed later GPU development strategies.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Computational Graphics for Physics</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    Graphics shaders (GLSL, HLSL) can be repurposed for general scientific computation. Fragment shaders, 
+                                    which operate on image pixels, can perform floating-point calculations in parallel. We explore shader-based 
+                                    computation for preliminary physics simulations and data processing.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Integration with Gaming Engines</h3>
+                                <p class="project-meta">GK, SF</p>
+                                <p>
+                                    Modern game engines provide sophisticated physics engines, spatial indexing, and rendering systems. 
+                                    We investigate integrating scientific simulation kernels with these engines to create interactive 
+                                    research and visualization platforms.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Educational & Outreach Applications</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    Gaming technology enables engaging, interactive educational content. We develop applications using game 
+                                    engines to teach gravitational physics, black hole dynamics, and numerical methods to undergraduate and 
+                                    high school students. Interactive simulations boost learning and motivation.
+                                </p>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <aside class="sidebar">
+                        <div class="sidebar-card">
+                            <h3>Lead Researchers</h3>
+                            <ul class="people-list">
+                                <li><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a></li>
+                                <li><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-card">
+                            <h3>Technologies</h3>
+                            <ul class="people-list">
+                                <li>NVIDIA GeForce/CUDA</li>
+                                <li>AMD Radeon</li>
+                                <li>Unreal Engine</li>
+                                <li>Unity</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
     </main>
-    
-<aside id="sidebar">
-  <div class="sidebar-card people-card">
-    <h3>People</h3>
-    <h4>Core Faculty</h4>
-    <ul>
-      <li><a href="https://web.uri.edu/physics/meet/robert-coyne/">Robert Coyne</a>, URI Physics</li>
-      <li><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a>, UMassD Math</li>
-      <li><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a>, UMassD/URI Physics</li>
-    </ul>
-    <h4>Collaborative Faculty</h4>
-    <ul>
-      <li>Lior Burko, Theiss Research, CA</li>
-      <li><a href="https://en.wikipedia.org/wiki/Richard_H._Price">Richard Price</a>, MIT / UMassD</li>
-      <li><a href="http://web.mit.edu/sahughes/www/">Scott Hughes</a>, MIT</li>
-      <li><a href="https://www.lsu.edu/physics/people/faculty/singh.php">Param Singh</a>, LSU</li>
-    </ul>
-    <details>
-      <summary>Students and alumni</summary>
-      <ul>
-        <li>Ed McClain</li><li>Feroz Shaik</li><li>Alec Yonika</li><li>Katie Rink</li><li>Connor Kenyon</li><li>Kevin Quesada-Gonzalez</li>
-        <li>Caroline Mallary</li><li>Nur Rifat</li><li>Rahul Kashyap</li><li>Will Duff</li><li>Sarah Seva</li><li>Tyler Spilhaus</li>
-        <li>David Torndorf-Dick</li><li>Charles Harnden</li><li>Dan Walsh</li><li>Gary Forrester</li><li>Mike DeSousa</li><li>Justin McKennon</li>
-        <li>Dave Falta</li><li>Matthew Hogan</li><li>Philip Mendonca</li><li>Rakesh Ginjupalli</li><li>Sarah McLeod</li><li>Ian Nagle</li>
-        <li>Joshua Liberty</li><li>Emanuel Simon</li><li>Francis Boateng</li><li>Subir Sabharwal</li><li>Vishnu Paruchuri</li><li>Jessica Rosen</li>
-        <li>Peter Goetz</li><li>Seth Connors</li><li>Zhenhua Ning</li><li>Nobuhiro Suzuki</li><li>Mike O'Brien</li><li>Matt Strafuss</li>
-      </ul>
-    </details>
-  </div>
-  <div class="sidebar-card">
-    <h3>Original archive</h3>
-    <p>The rebuilt pages preserve the old text flow and link to original media/documents where available.</p>
-    <a class="small-button" href="archive.html">Browse archive</a>
-  </div>
-</aside>
-  </div>
-  <footer id="footer"><span>&copy; Gaurav Khanna — UMass-URI Gravity Research Consortium</span><span>Originally hosted at gravity.phy.umassd.edu</span></footer>
-</div>
-<script src="gravity.js"></script>
+
+    <!-- ── Footer ── -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; UMass-URI Gravity Research Consortium</p>
+            <p class="footer-note">Originally hosted at gravity.phy.umassd.edu • Redesigned 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

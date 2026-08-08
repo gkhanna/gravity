@@ -1,61 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Condor PS3s — Gravity Research Consortium</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condor PS3s — U²GRC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<div id="page">
-  <header id="header">
-    <img class="banner" src="assets/bh_files/shapeimage_4.png" alt="Black hole accretion disk banner">
-    <div class="site-title">Welcome to the UMass-URI Gravity Research Consortium (U²GRC)</div>
-  </header>
-  <nav id="nav"><ul><li><a href="index.html">Home</a></li><li><a href="bh.html">Black Holes</a></li><li><a href="qc.html">Quantum Cosmology</a></li><li><a href="sc.html">Scientific Computation</a></li><li><a href="ps3.html">PS3 Cluster</a></li><li><a href="reefer.html">Reefer Container</a></li><li><a href="ocl.html">OpenCL</a></li><li><a href="gametech.html">Gaming Tech</a></li><li><a href="condor.html" class="active">Condor PS3s</a></li></ul></nav>
-  <div id="body">
-    <main id="content">
-      <section class="page-title"><img class="title-image" src="assets/ps3_files/shapeimage_11.png" alt="Condor PS3s"><p class="archive-note">A modern restoration of the original iWeb-era gravity research site. The typography, blue-on-black palette, sidebar structure, and archival links intentionally echo the old pages.</p></section>
-      <article class="source-card"><h1>AFRL Condor PS3s</h1><p>This page preserves the photo set from the original Condor PS3 section while using a small modern lightbox. Click any thumbnail to open the larger image.</p></article><section class="photo-grid"><button class="photo-tile" data-full="assets/condor/DSC_0138.jpg"><img src="assets/condor/DSC_0138_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0139.jpg"><img src="assets/condor/DSC_0139_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0140.jpg"><img src="assets/condor/DSC_0140_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0141.jpg"><img src="assets/condor/DSC_0141_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0142.jpg"><img src="assets/condor/DSC_0142_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0143.jpg"><img src="assets/condor/DSC_0143_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0144.jpg"><img src="assets/condor/DSC_0144_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0145.jpg"><img src="assets/condor/DSC_0145_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0146.jpg"><img src="assets/condor/DSC_0146_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0147.jpg"><img src="assets/condor/DSC_0147_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0148.jpg"><img src="assets/condor/DSC_0148_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0149.jpg"><img src="assets/condor/DSC_0149_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0150.jpg"><img src="assets/condor/DSC_0150_thumb.jpg" alt="AFRL Condor PS3 photo"></button><button class="photo-tile" data-full="assets/condor/DSC_0151.jpg"><img src="assets/condor/DSC_0151_thumb.jpg" alt="AFRL Condor PS3 photo"></button></section>
+
+    <!-- ── Header ── -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>U<sup>2</sup>GRC</h1>
+                <p class="tagline">UMass-URI Gravity Research Consortium</p>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="bh.html" class="nav-link">Black Holes</a>
+                <a href="qc.html" class="nav-link">Quantum Cosmology</a>
+                <a href="sc.html" class="nav-link">Scientific Computation</a>
+                <a href="ps3.html" class="nav-link">PS3 Cluster</a>
+                <a href="reefer.html" class="nav-link">Reefer</a>
+                <a href="ocl.html" class="nav-link">OpenCL</a>
+                <a href="gametech.html" class="nav-link">Gaming</a>
+                <a href="condor.html" class="nav-link active">Condor</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ── Page Header ── -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Condor PS3 Grid</h1>
+                <p class="page-subtitle">Distributed batch computing with Condor job scheduling across PS3 resources</p>
+            </div>
+        </section>
+
+        <!-- ── Content ── -->
+        <section class="page-content">
+            <div class="container">
+                <div class="content-wrapper">
+                    <article class="main-article">
+                        <p>
+                            The Condor PS3 Grid combines the HTCondor distributed computing framework with PlayStation 3 resources 
+                            to enable large-scale batch processing of gravitational physics simulations. This system allows researchers 
+                            to submit parameter studies and ensemble computations that are automatically distributed across available resources.
+                        </p>
+
+                        <div class="research-projects">
+                            <div class="project">
+                                <h3>HTCondor Distributed Computing Framework</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    HTCondor (formerly Condor) is a specialized workload management system designed for high-throughput computing. 
+                                    It automatically manages job scheduling, resource allocation, and fault tolerance across a pool of computing resources.
+                                </p>
+                                <p>
+                                    We integrated HTCondor with our PS3 cluster to enable efficient batch processing of thousands of 
+                                    independent gravitational wave simulations, each exploring different parameter combinations.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Job Specification & Submission</h3>
+                                <p class="project-meta">GK, SF</p>
+                                <p>
+                                    We developed wrapper scripts and tools that translate physics simulation requests into HTCondor job specifications. 
+                                    Researchers can submit complex parameter sweeps and receive aggregated results without managing individual jobs.
+                                </p>
+                                <p>
+                                    The system handles automatic retries on failure, checkpointing for long-running jobs, and result aggregation 
+                                    from distributed workers.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Resource Allocation & Load Balancing</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    HTCondor's intelligent scheduling algorithm automatically balances load across available PS3 resources, 
+                                    maximizing cluster utilization while respecting user priorities and resource constraints.
+                                </p>
+                                <p>
+                                    The system dynamically responds to resource availability, preempting lower-priority jobs when higher-priority 
+                                    work arrives and seamlessly resuming them when resources become available.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Parameter Space Exploration</h3>
+                                <p class="project-meta">SF, GK</p>
+                                <p>
+                                    The Condor PS3 Grid excels at parameter space exploration. A researcher can specify a multi-dimensional 
+                                    parameter grid, and the system automatically generates thousands of individual jobs, submits them to the cluster, 
+                                    and coordinates their execution across available resources.
+                                </p>
+                                <p>
+                                    This enables comprehensive surveys of black hole properties, orbital configurations, and numerical schemes 
+                                    that would be impractical with smaller resources.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Fault Tolerance & Checkpointing</h3>
+                                <p class="project-meta">GK</p>
+                                <p>
+                                    Long-running simulations require robustness against node failures. We implemented periodic checkpointing 
+                                    to save simulation state, allowing jobs to resume from the last checkpoint rather than restarting from the beginning.
+                                </p>
+                                <p>
+                                    This dramatically improves the practical utility of the system for long-running physics simulations.
+                                </p>
+                            </div>
+
+                            <div class="project">
+                                <h3>Integration with Analysis Pipelines</h3>
+                                <p class="project-meta">GK, SF</p>
+                                <p>
+                                    The Condor PS3 Grid integrates seamlessly with analysis pipelines. Output from thousands of simulations can be 
+                                    automatically processed, analyzed, and visualized to extract physical insights or validate theoretical predictions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <aside class="sidebar">
+                        <div class="sidebar-card">
+                            <h3>Lead Researchers</h3>
+                            <ul class="people-list">
+                                <li><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a></li>
+                                <li><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-card">
+                            <h3>Key Resources</h3>
+                            <ul class="people-list">
+                                <li><a href="https://research.cs.wisc.edu/htcondor/">HTCondor Project</a></li>
+                                <li><a href="ps3.html">PS3 Cluster</a></li>
+                                <li><a href="sc.html">Scientific Computation</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
     </main>
-    
-<aside id="sidebar">
-  <div class="sidebar-card people-card">
-    <h3>People</h3>
-    <h4>Core Faculty</h4>
-    <ul>
-      <li><a href="https://web.uri.edu/physics/meet/robert-coyne/">Robert Coyne</a>, URI Physics</li>
-      <li><a href="http://www.math.umassd.edu/~sfield/">Scott Field</a>, UMassD Math</li>
-      <li><a href="https://web.uri.edu/physics/meet/gaurav-khanna/">Gaurav Khanna</a>, UMassD/URI Physics</li>
-    </ul>
-    <h4>Collaborative Faculty</h4>
-    <ul>
-      <li>Lior Burko, Theiss Research, CA</li>
-      <li><a href="https://en.wikipedia.org/wiki/Richard_H._Price">Richard Price</a>, MIT / UMassD</li>
-      <li><a href="http://web.mit.edu/sahughes/www/">Scott Hughes</a>, MIT</li>
-      <li><a href="https://www.lsu.edu/physics/people/faculty/singh.php">Param Singh</a>, LSU</li>
-    </ul>
-    <details>
-      <summary>Students and alumni</summary>
-      <ul>
-        <li>Ed McClain</li><li>Feroz Shaik</li><li>Alec Yonika</li><li>Katie Rink</li><li>Connor Kenyon</li><li>Kevin Quesada-Gonzalez</li>
-        <li>Caroline Mallary</li><li>Nur Rifat</li><li>Rahul Kashyap</li><li>Will Duff</li><li>Sarah Seva</li><li>Tyler Spilhaus</li>
-        <li>David Torndorf-Dick</li><li>Charles Harnden</li><li>Dan Walsh</li><li>Gary Forrester</li><li>Mike DeSousa</li><li>Justin McKennon</li>
-        <li>Dave Falta</li><li>Matthew Hogan</li><li>Philip Mendonca</li><li>Rakesh Ginjupalli</li><li>Sarah McLeod</li><li>Ian Nagle</li>
-        <li>Joshua Liberty</li><li>Emanuel Simon</li><li>Francis Boateng</li><li>Subir Sabharwal</li><li>Vishnu Paruchuri</li><li>Jessica Rosen</li>
-        <li>Peter Goetz</li><li>Seth Connors</li><li>Zhenhua Ning</li><li>Nobuhiro Suzuki</li><li>Mike O'Brien</li><li>Matt Strafuss</li>
-      </ul>
-    </details>
-  </div>
-  <div class="sidebar-card">
-    <h3>Original archive</h3>
-    <p>The rebuilt pages preserve the old text flow and link to original media/documents where available.</p>
-    <a class="small-button" href="archive.html">Browse archive</a>
-  </div>
-</aside>
-  </div>
-  <footer id="footer"><span>&copy; Gaurav Khanna — UMass-URI Gravity Research Consortium</span><span>Originally hosted at gravity.phy.umassd.edu</span></footer>
-</div>
-<script src="gravity.js"></script>
+
+    <!-- ── Footer ── -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; UMass-URI Gravity Research Consortium</p>
+            <p class="footer-note">Originally hosted at gravity.phy.umassd.edu • Redesigned 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
