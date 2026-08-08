@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:EBC53352-797C-4C80-9DD6-3A80025F93D6</id>
+ <title>Page list Atom feed</title>
+ <updated>2020-12-06T14:52:19-05:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:C0ECB1A9-8600-4A3D-8506-4B1CA95D2E34</id>
+  <title>sc</title>
+  <title xmlns="urn:iweb:">sc</title>
+  <in-navbar xmlns="urn:iweb:">C0ECB1A9-8600-4A3D-8506-4B1CA95D2E34</in-navbar>
+  <link rel="alternate" href="sc.html"/>
+  <updated>2020-12-06T14:52:19.001-05:00</updated>
+  <content>sc</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:9A90013E-67C6-4EBF-B3F2-719E80D7F252</id>
+  <title>gametech</title>
+  <title xmlns="urn:iweb:">gametech</title>
+  <in-navbar xmlns="urn:iweb:">9A90013E-67C6-4EBF-B3F2-719E80D7F252</in-navbar>
+  <link rel="alternate" href="gametech.html"/>
+  <updated>2020-12-06T14:52:19.002-05:00</updated>
+  <content>gametech</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:A8AE03A8-00D5-4FE6-ABA8-E89C24764021</id>
+  <title>ocl</title>
+  <title xmlns="urn:iweb:">ocl</title>
+  <in-navbar xmlns="urn:iweb:">A8AE03A8-00D5-4FE6-ABA8-E89C24764021</in-navbar>
+  <link rel="alternate" href="ocl.html"/>
+  <updated>2020-12-06T14:52:19.003-05:00</updated>
+  <content>ocl</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:10CD1972-A778-4440-8A1D-13A52CD2228B</id>
+  <title>reefer</title>
+  <title xmlns="urn:iweb:">reefer</title>
+  <in-navbar xmlns="urn:iweb:">10CD1972-A778-4440-8A1D-13A52CD2228B</in-navbar>
+  <link rel="alternate" href="reefer.html"/>
+  <updated>2020-12-06T14:52:19.004-05:00</updated>
+  <content>reefer</content>
+ </entry>
+</feed>

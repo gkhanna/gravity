@@ -1,0 +1,1247 @@
+{
+  "sections": [
+    {
+      "id": "black-holes",
+      "source": "bh",
+      "title": "Black Hole Physics",
+      "kicker": "Gravitational waves, tails, and singularities",
+      "image": "media/images/side.gif",
+      "summary": "Projects on binary black hole coalescence, radiative tails, black holes in loop quantum gravity, and Einstein@Home optimization."
+    },
+    {
+      "id": "quantum-cosmology",
+      "source": "qc",
+      "title": "Quantum Cosmology",
+      "kicker": "Discrete spacetime and the early universe",
+      "image": "media/images/spinfoam.jpg",
+      "summary": "Loop quantum cosmology, quantum space dynamics, black holes in loop quantum gravity, and cosmological natural selection."
+    },
+    {
+      "id": "scientific-computation",
+      "source": "sc",
+      "title": "Scientific Computation",
+      "kicker": "Alternative computing for numerical relativity",
+      "image": "media/images/cellfft.png",
+      "summary": "Use of PS3, IBM QS22 Cell blades, CUDA/OpenCL GPUs, and multicore CPUs for gravitational wave science."
+    },
+    {
+      "id": "opencl",
+      "source": "ocl",
+      "title": "OpenCL Research",
+      "kicker": "Portable many-core computing",
+      "image": "media/images/FFT_khanna.jpeg",
+      "summary": "OpenCL for high-resolution, long-duration black-hole binary inspiral computations and data analysis."
+    },
+    {
+      "id": "gaming-tech",
+      "source": "gametech",
+      "title": "Gaming Technologies",
+      "kicker": "Consumer hardware as scientific infrastructure",
+      "image": "media/images/rackfront.jpg",
+      "summary": "Exploration of gaming GPUs, fused processors, and next-generation consoles for numerical modeling and big-data analysis."
+    },
+    {
+      "id": "ps3",
+      "source": "ps3",
+      "title": "PS3 Gravity Grid",
+      "kicker": "Sixteen PlayStation 3 consoles doing real science",
+      "image": "media/images/rackfront_old.jpg",
+      "summary": "A low-cost PS3 cluster for black-hole and gravitational-wave computations, widely covered in the media."
+    },
+    {
+      "id": "reefer",
+      "source": "reefer",
+      "title": "Reefer Supercomputer",
+      "kicker": "176 PS3s in a refrigerated shipping container",
+      "image": "media/images/rack.jpg",
+      "summary": "A containerized PS3 supercomputer with striking performance-per-dollar and performance-per-watt."
+    }
+  ],
+  "people": {
+    "Core Faculty": [
+      "Robert Coyne \u2014 URI Physics",
+      "Scott Field \u2014 UMassD Math",
+      "Gaurav Khanna \u2014 UMassD/URI Physics"
+    ],
+    "Collaborative Faculty": [
+      "Lior Burko \u2014 Theiss Research",
+      "Richard Price \u2014 MIT / UMassD",
+      "Scott Hughes \u2014 MIT",
+      "Param Singh \u2014 Louisiana State"
+    ],
+    "Students and Alumni": [
+      "Ed McClain",
+      "Feroz Shaik",
+      "Alec Yonika",
+      "Katie Rink",
+      "Connor Kenyon",
+      "Kevin Quesada-Gonzalez",
+      "Caroline Mallary",
+      "Nur Rifat",
+      "Rahul Kashyap",
+      "Will Duff",
+      "Sarah Seva",
+      "Tyler Spilhaus",
+      "David Torndorf-Dick",
+      "Charles Harnden",
+      "Dan Walsh",
+      "Gary Forrester",
+      "Mike DeSousa",
+      "Justin McKennon"
+    ]
+  },
+  "media": [
+    {
+      "title": "Binary black hole waves \u2014 side view",
+      "file": "media/videos/side.mov"
+    },
+    {
+      "title": "Binary black hole waves \u2014 top view",
+      "file": "media/videos/top.mov"
+    },
+    {
+      "title": "Spin foam animation",
+      "file": "media/videos/spinfoam.mov"
+    },
+    {
+      "title": "ABC6 segment",
+      "file": "media/videos/ABC6GK.mp4"
+    },
+    {
+      "title": "Science Channel: Brink",
+      "file": "media/videos/Brink.mp4"
+    }
+  ],
+  "press": [
+    {
+      "title": "Wired / ABC News",
+      "file": "media/docs/abc_wired.pdf"
+    },
+    {
+      "title": "Computerworld",
+      "file": "media/docs/computerworld.pdf"
+    },
+    {
+      "title": "Herald News",
+      "file": "media/docs/herald.pdf"
+    },
+    {
+      "title": "New Scientist",
+      "file": "media/docs/newscientist.pdf"
+    },
+    {
+      "title": "Daily Telegraph UK",
+      "file": "media/docs/uk_telegraph.pdf"
+    },
+    {
+      "title": "Washington Post",
+      "file": "media/docs/wapo.pdf"
+    },
+    {
+      "title": "USA Today",
+      "file": "media/docs/usatoday.pdf"
+    },
+    {
+      "title": "IEEE Spectrum",
+      "file": "media/docs/spectrum.pdf"
+    },
+    {
+      "title": "Ars Technica",
+      "file": "media/docs/ars.pdf"
+    },
+    {
+      "title": "Forbes",
+      "file": "media/docs/forbes.pdf"
+    },
+    {
+      "title": "BBC",
+      "file": "media/docs/bbc.pdf"
+    },
+    {
+      "title": "Defense Systems",
+      "file": "media/docs/defensesystems.pdf"
+    }
+  ],
+  "links": {
+    "main": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "Physics Department at UMass Dartmouth",
+        "href": "http://www.umassd.edu/engineering/phy"
+      },
+      {
+        "label": "Physics Department at the University of Rhode Island",
+        "href": "https://web.uri.edu/physics/"
+      },
+      {
+        "label": "Black Holes",
+        "href": "http://gravity.phy.umassd.edu/bh.html"
+      },
+      {
+        "label": "Quantum Cosmology",
+        "href": "http://gravity.phy.umassd.edu/qc.html"
+      },
+      {
+        "label": "Scientific Computation",
+        "href": "http://gravity.phy.umassd.edu/sc.html"
+      },
+      {
+        "label": "e-print archive",
+        "href": "http://arxiv.org"
+      },
+      {
+        "label": "explicit list",
+        "href": "https://arxiv.org/find/grp_physics/1/au:+khanna_g/0/1/0/all/0/1"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "PS3 cluster",
+        "href": "http://gravity.phy.umassd.edu/ps3.html"
+      },
+      {
+        "label": "here is its \u201cbig brother\u201d",
+        "href": "http://gravity.phy.umassd.edu/reefer.html"
+      },
+      {
+        "label": "Center for Scientific Computing & Visualization Research",
+        "href": "http://cscvr.umassd.edu/"
+      },
+      {
+        "label": "Prof. Khanna\u2019s talk",
+        "href": "http://players.brightcove.net/1050888037001/default_default/index.html?videoId=4911776257001"
+      },
+      {
+        "label": "GW150914 detection",
+        "href": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+      },
+      {
+        "label": "Interstellar event",
+        "href": "http://players.brightcove.net/1050888037001/default_default/index.html?videoId=4911546548001"
+      },
+      {
+        "label": "Prof. Kip Thorne",
+        "href": "https://www.its.caltech.edu/~kip/"
+      },
+      {
+        "label": "General Relativity",
+        "href": "http://archive.ncsa.uiuc.edu/Cyberia/NumRel/GenRelativity.html"
+      },
+      {
+        "label": "Black Holes",
+        "href": "http://archive.ncsa.uiuc.edu/Cyberia/NumRel/BlackHoles.html"
+      },
+      {
+        "label": "Quantum Gravity",
+        "href": "http://www.einstein-online.info/en/elementary/quantum/loops/"
+      },
+      {
+        "label": "Numerical Relativity",
+        "href": "http://archive.ncsa.uiuc.edu/Cyberia/NumRel/RelGoDigital.html"
+      },
+      {
+        "label": "LIGO",
+        "href": "http://www.ligo.caltech.edu/"
+      },
+      {
+        "label": "LISA",
+        "href": "http://lisa.jpl.nasa.gov/"
+      },
+      {
+        "label": "LANL preprints",
+        "href": "http://xxx.lanl.gov/"
+      },
+      {
+        "label": "Matters of Gravity",
+        "href": "http://www.phys.lsu.edu/mog/"
+      },
+      {
+        "label": "Hyperspace",
+        "href": "http://hyperspace.aei.mpg.de/"
+      },
+      {
+        "label": "Einstein@Home",
+        "href": "http://einstein.phys.uwm.edu/"
+      },
+      {
+        "label": "Penn State Gravity Group",
+        "href": "http://gravity.psu.edu/"
+      },
+      {
+        "label": "Louisiana State Gravity Group",
+        "href": "http://relativity.phys.lsu.edu/"
+      },
+      {
+        "label": "Georgia Tech Relativity Group",
+        "href": "http://www.cra.gatech.edu/"
+      },
+      {
+        "label": "A.E.I. Max Planck Institute",
+        "href": "http://www.aei.mpg.de/"
+      },
+      {
+        "label": "International Relativity Group",
+        "href": "http://jean-luc.aei.mpg.de/"
+      },
+      {
+        "label": "Caltech Relativity Group",
+        "href": "http://www.tapir.caltech.edu/"
+      },
+      {
+        "label": "UT Austin Relativity Group",
+        "href": "http://godel.ph.utexas.edu/"
+      },
+      {
+        "label": "Syracuse Relativity Group",
+        "href": "http://physics.syr.edu/research/relativity/"
+      },
+      {
+        "label": "UWM Relativity Group",
+        "href": "http://www.gravity.phys.uwm.edu/"
+      },
+      {
+        "label": "FAU Space-Time Physics Group",
+        "href": "http://www.physics.fau.edu/research/faust/faust.php"
+      },
+      {
+        "label": "RIT Relativity Group",
+        "href": "http://ccrg.rit.edu/"
+      },
+      {
+        "label": "UTB Relativity Group",
+        "href": "http://www.phys.utb.edu/UTBRG/"
+      },
+      {
+        "label": "Cornell Relativity Group",
+        "href": "http://astrosun2.astro.cornell.edu/research/projects/art/"
+      },
+      {
+        "label": "UMaryland Relativity Group",
+        "href": "http://www.physics.umd.edu/grt/"
+      },
+      {
+        "label": "UC Santa Barbara Relativity Group",
+        "href": "http://www.physics.ucsb.edu/~relativity/"
+      }
+    ],
+    "bh": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "Prof. Khanna\u2019s talk",
+        "href": "http://players.brightcove.net/1050888037001/default_default/index.html?videoId=4911776257001"
+      },
+      {
+        "label": "GW150914 detection",
+        "href": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+      },
+      {
+        "label": "Interstellar event",
+        "href": "http://players.brightcove.net/1050888037001/default_default/index.html?videoId=4911546548001"
+      },
+      {
+        "label": "Prof. Kip Thorne",
+        "href": "https://www.its.caltech.edu/~kip/"
+      },
+      {
+        "label": "LIGO",
+        "href": "http://www.ligo.caltech.edu/"
+      },
+      {
+        "label": "LISA",
+        "href": "http://lisa.jpl.nasa.gov/"
+      },
+      {
+        "label": "this link",
+        "href": "http://www.nature.com/news/1999/991111/full/news991111-3.html"
+      },
+      {
+        "label": "Nature",
+        "href": "http://www.nature.com/"
+      },
+      {
+        "label": "another link",
+        "href": "http://news.discovery.com/space/the-naked-singularitys-new-clothes.html"
+      },
+      {
+        "label": "Discovery",
+        "href": "http://dsc.discovery.com/"
+      },
+      {
+        "label": "side view",
+        "href": "http://gravity.phy.umassd.edu/side.mov"
+      },
+      {
+        "label": "top view",
+        "href": "http://gravity.phy.umassd.edu/top.mov"
+      },
+      {
+        "label": "more movies",
+        "href": "http://www.tapir.caltech.edu/~sdrasco/animations/"
+      },
+      {
+        "label": "snapshot",
+        "href": "http://gravity.phy.umassd.edu/side.gif"
+      },
+      {
+        "label": "plot",
+        "href": "http://gravity.phy.umassd.edu/tail.jpg"
+      },
+      {
+        "label": "loop quantum gravity",
+        "href": "http://www.einstein-online.info/en/elementary/quantum/loops/"
+      },
+      {
+        "label": "Einstein@Home",
+        "href": "http://einstein.phys.uwm.edu/"
+      },
+      {
+        "label": "Einstein@UMass",
+        "href": "http://einstein.phys.uwm.edu/team_display.php?teamid=108"
+      }
+    ],
+    "qc": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "Prof. Khanna\u2019s talk",
+        "href": "http://players.brightcove.net/1050888037001/default_default/index.html?videoId=4911776257001"
+      },
+      {
+        "label": "GW150914 detection",
+        "href": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+      },
+      {
+        "label": "Interstellar event",
+        "href": "http://players.brightcove.net/1050888037001/default_default/index.html?videoId=4911546548001"
+      },
+      {
+        "label": "Prof. Kip Thorne",
+        "href": "https://www.its.caltech.edu/~kip/"
+      },
+      {
+        "label": "loop quantum gravity",
+        "href": "http://www.einstein-online.info/en/elementary/quantum/loops/"
+      },
+      {
+        "label": "spinfoam",
+        "href": "http://gravity.phy.umassd.edu/spinfoam.mov"
+      },
+      {
+        "label": "snapshot",
+        "href": "http://gravity.phy.umassd.edu/spinfoam.jpg"
+      },
+      {
+        "label": "plot",
+        "href": "http://gravity.phy.umassd.edu/asymmetry.jpg"
+      },
+      {
+        "label": "The Life of the Cosmos",
+        "href": "http://www.nytimes.com/books/first/s/smolin-cosmos.html"
+      }
+    ],
+    "sc": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "full list",
+        "href": "https://arxiv.org/find/grp_physics/1/au:+khanna_g/0/1/0/all/0/1"
+      },
+      {
+        "label": "Center for Scientific Computing & Visualization Research",
+        "href": "http://cscvr.umassd.edu/"
+      },
+      {
+        "label": "dedicated website",
+        "href": "http://gravity.phy.umassd.edu/ps3.html"
+      },
+      {
+        "label": "here is its \u201cbig brother\u201d",
+        "href": "http://gravity.phy.umassd.edu/reefer.html"
+      },
+      {
+        "label": "dedicated website",
+        "href": "http://gravity.phy.umassd.edu/ocl.html"
+      },
+      {
+        "label": "dedicated website",
+        "href": "http://gravity.phy.umassd.edu/gametech.html"
+      },
+      {
+        "label": "Numerical Relativity",
+        "href": "http://en.wikipedia.org/wiki/Numerical_relativity"
+      },
+      {
+        "label": "Gravitational Wave Data Analysis",
+        "href": "https://www.lsc-group.phys.uwm.edu/lscdatagrid/"
+      },
+      {
+        "label": "Sony PlayStation 3",
+        "href": "http://www.us.playstation.com/ps3"
+      },
+      {
+        "label": "IBM QS22 BladeCenter",
+        "href": "http://www-03.ibm.com/systems/bladecenter/hardware/servers/qs22/"
+      },
+      {
+        "label": "Nvidia Tesla CUDA GPU",
+        "href": "http://www.nvidia.com/object/tesla_computing_solutions.html"
+      },
+      {
+        "label": "multi-core CPUs",
+        "href": "http://en.wikipedia.org/wiki/Multi-core"
+      },
+      {
+        "label": "available here",
+        "href": "http://arxiv.org/abs/0909.4039"
+      },
+      {
+        "label": "Data Figure",
+        "href": "http://gravity.phy.umassd.edu/cellfft.png"
+      },
+      {
+        "label": "available here",
+        "href": "http://arxiv.org/abs/1006.0663"
+      },
+      {
+        "label": "J. Sci. Comp. (2013)",
+        "href": "http://link.springer.com/article/10.1007%2Fs10915-012-9679-3"
+      }
+    ],
+    "ocl": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "CPC (2010)",
+        "href": "http://arxiv.org/abs/1001.3631"
+      },
+      {
+        "label": "Phys. Rev. Lett. 105 261102 (2010)",
+        "href": "http://arxiv.org/abs/1001.0541"
+      },
+      {
+        "label": "Phys. Rev. Lett. 106 201103 (2011)",
+        "href": "http://arxiv.org/abs/1011.6387"
+      },
+      {
+        "label": "Phys. Rev. D83 124002 (2011)",
+        "href": "http://arxiv.org/abs/1104.0387"
+      },
+      {
+        "label": "Phys. Rev. D84 104006 (2011)",
+        "href": "http://arxiv.org/abs/1106.1692"
+      },
+      {
+        "label": "Phys. Rev. X1 021017 (2011)",
+        "href": "http://arxiv.org/abs/1108.1816"
+      },
+      {
+        "label": "Phys. Rev. D85 024046 (2012)",
+        "href": "http://arxiv.org/abs/1110.3081"
+      },
+      {
+        "label": "XSEDE12 (2012)",
+        "href": "http://arxiv.org/abs/1206.0270"
+      },
+      {
+        "label": "J. Sci. Comp. (2013)",
+        "href": "http://link.springer.com/article/10.1007%2Fs10915-012-9679-3"
+      },
+      {
+        "label": "Phys. Rev. D88 024002 (2013)",
+        "href": "http://arxiv.org/abs/1304.5296"
+      },
+      {
+        "label": "Phys. Rev. D88 044001 (2013)",
+        "href": "http://arxiv.org/abs/1305.2184"
+      },
+      {
+        "label": "Phys. Rev. D88 104004 (2013)",
+        "href": "http://arxiv.org/abs/1306.1159"
+      },
+      {
+        "label": "Phys. Rev. D89 044037 (2014)",
+        "href": "http://arxiv.org/abs/1312.5247"
+      },
+      {
+        "label": "Preprint arXiv:1312.5210 (2013)",
+        "href": "http://arxiv.org/abs/1312.5210"
+      },
+      {
+        "label": "Gen. Rel. Grav. 46, 1672 (2014)",
+        "href": "http://arxiv.org/abs/1208.5839"
+      },
+      {
+        "label": "Phys. Rev. D90 084025 (2014)",
+        "href": "http://arxiv.org/abs/1404.1819"
+      },
+      {
+        "label": "CSC\u201914 (2014)",
+        "href": "http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf"
+      },
+      {
+        "label": "Phys. Rev. D91 104017 (2015)",
+        "href": "http://arxiv.org/abs/1503.05097"
+      },
+      {
+        "label": "Phys. Rev. D93 041501R (2016)",
+        "href": "https://arxiv.org/abs/1601.05120"
+      },
+      {
+        "label": "Phys. Rev. D94 084049 (2016)",
+        "href": "https://arxiv.org/abs/1608.02244"
+      },
+      {
+        "label": "IEEE HPEC Conf. (2017)",
+        "href": "https://arxiv.org/abs/1607.05537"
+      },
+      {
+        "label": "Phys. Rev. D95 081501 (2017)",
+        "href": "https://arxiv.org/abs/1609.00083"
+      },
+      {
+        "label": "Phys. Rev. D96 024020 (2017)",
+        "href": "https://arxiv.org/abs/1705.04949"
+      },
+      {
+        "label": "Class. Quant. Grav. 34 205012 (2017)",
+        "href": "https://arxiv.org/abs/1706.07413"
+      },
+      {
+        "label": "Center for Scientific Computing & Visualization Research.",
+        "href": "http://cscvr.umassd.edu/"
+      },
+      {
+        "label": "CPC (2010)",
+        "href": "http://arxiv.org/abs/1001.3631"
+      },
+      {
+        "label": "PDCS (2011)",
+        "href": "http://arxiv.org/abs/1010.3816"
+      },
+      {
+        "label": "XSEDE12 (2012)",
+        "href": "http://arxiv.org/abs/1206.0270"
+      },
+      {
+        "label": "J. Sci. Comp. (2013)",
+        "href": "http://link.springer.com/article/10.1007%2Fs10915-012-9679-3"
+      },
+      {
+        "label": "Open Computing Language",
+        "href": "http://www.khronos.org/opencl/"
+      },
+      {
+        "label": "Sony PlayStation 3",
+        "href": "http://www.us.playstation.com/PS3"
+      },
+      {
+        "label": "PS3 Gravity Grid",
+        "href": "http://gravity.phy.umassd.edu/ps3.html"
+      }
+    ],
+    "gametech": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "Preprint arXiv:1312.5210 (2013)",
+        "href": "http://arxiv.org/abs/1312.5210"
+      },
+      {
+        "label": "Phys. Rev. D90 084025 (2014)",
+        "href": "http://arxiv.org/abs/1404.1819"
+      },
+      {
+        "label": "CSC\u201914 (2014)",
+        "href": "http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf"
+      },
+      {
+        "label": "Phys. Rev. D91 104017 (2015)",
+        "href": "http://arxiv.org/abs/1503.05097"
+      },
+      {
+        "label": "Phys. Rev. D93 041501R (2016)",
+        "href": "https://arxiv.org/abs/1601.05120"
+      },
+      {
+        "label": "Phys. Rev. D94 084049 (2016)",
+        "href": "https://arxiv.org/abs/1608.02244"
+      },
+      {
+        "label": "IEEE HPEC Conf. (2017)",
+        "href": "https://arxiv.org/abs/1607.05537"
+      },
+      {
+        "label": "Phys. Rev. D95 081501 (2017)",
+        "href": "https://arxiv.org/abs/1609.00083"
+      },
+      {
+        "label": "Phys. Rev. D96 024020 (2017)",
+        "href": "https://arxiv.org/abs/1705.04949"
+      },
+      {
+        "label": "Class. Quant. Grav. 34 205012 (2017)",
+        "href": "https://arxiv.org/abs/1706.07413"
+      },
+      {
+        "label": "Center for Scientific Computing & Visualization Research",
+        "href": "http://cscvr.umassd.edu/"
+      },
+      {
+        "label": "dedicated website",
+        "href": "http://gravity.phy.umassd.edu/ps3.html"
+      },
+      {
+        "label": "here is its \u201cbig brother\u201d",
+        "href": "http://gravity.phy.umassd.edu/reefer.html"
+      },
+      {
+        "label": "dedicated website",
+        "href": "http://gravity.phy.umassd.edu/ocl.html"
+      },
+      {
+        "label": "dedicated website",
+        "href": "http://gravity.phy.umassd.edu/sc.html"
+      },
+      {
+        "label": "KhannaCRADA2014.pdf",
+        "href": "http://gravity.phy.umassd.edu/KhannaCRADA2014.pdf"
+      },
+      {
+        "label": "SHOC",
+        "href": "http://gravity.phy.umassd.edu/shoc"
+      },
+      {
+        "label": "IEEE HPEC Conf. (2017)",
+        "href": "https://arxiv.org/abs/1607.05537"
+      },
+      {
+        "label": "Nvidia Shield TV",
+        "href": "https://www.nvidia.com/en-us/shield/shield-tv/"
+      },
+      {
+        "label": "HPC Day 2017",
+        "href": "http://cscvr1.umassd.edu/news_hpcday2017.html"
+      },
+      {
+        "label": "ShieldDIY",
+        "href": "http://gravity.phy.umassd.edu/ShieldDIY.pdf"
+      }
+    ],
+    "ps3": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "Wired Magazine & ABC News",
+        "href": "http://abcnews.go.com/Technology/story?id=3740738"
+      },
+      {
+        "label": "Computerworld",
+        "href": "http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9043942"
+      },
+      {
+        "label": "Standard Times",
+        "href": "http://www.southcoasttoday.com/apps/pbcs.dll/article?AID=/20071007/NEWS/710070383"
+      },
+      {
+        "label": "Herald News",
+        "href": "http://www.wickedlocal.com/x1647203245/How-to-turn-your-PS3-into-a-supercomputer"
+      },
+      {
+        "label": "NZ Herald News",
+        "href": "http://www.nzherald.co.nz/category/1501137/story.cfm?c_id=1501137&objectid=10473693"
+      },
+      {
+        "label": "DNA India",
+        "href": "http://www.dnaindia.com/report.asp?newsid=1136660"
+      },
+      {
+        "label": "GCN News",
+        "href": "http://gcn.com/articles/2007/12/06/sony-playstation-3-its-not-all-fun-and-games.aspx"
+      },
+      {
+        "label": "eSchool News",
+        "href": "http://www.eschoolnews.com/2008/01/17/a-sub-4-000-supercomputer-its-no-game/"
+      },
+      {
+        "label": "New Scientist Magazine",
+        "href": "http://www.canada.com/topics/technology/games/story.html?id=9f11b7ef-6d11-4afd-83a5-5f1fb2f62ef9&k=54845"
+      },
+      {
+        "label": "Daily Telegraph UK",
+        "href": "http://www.telegraph.co.uk/science/science-news/3325757/Why-scientists-love-games-consoles.html"
+      },
+      {
+        "label": "The Age & Sydney M. Herald",
+        "href": "http://www.theage.com.au/news/articles/supercomputer-is-a-rack-of-ps3s/2008/02/26/1203788327976.html"
+      },
+      {
+        "label": "PSXExtreme Interview",
+        "href": "http://www.psxextreme.com/feature/270.html"
+      },
+      {
+        "label": "Sony Interview",
+        "href": "http://triviana.com/inter/superps3.htm"
+      },
+      {
+        "label": "Boston Business Journal",
+        "href": "http://boston.bizjournals.com/boston/stories/2008/08/25/story1.html?b=1219636800%5E1688495"
+      },
+      {
+        "label": "CBC News",
+        "href": "http://www.cbc.ca/technology/story/2008/12/19/ps3-supercomputer.html"
+      },
+      {
+        "label": "SouthCoast Today",
+        "href": "http://www.southcoasttoday.com/apps/pbcs.dll/article?AID=/20081226/NEWS/812260334"
+      },
+      {
+        "label": "National Public Radio (NPR)",
+        "href": "http://www.npr.org/templates/story/story.php?storyId=100969805"
+      },
+      {
+        "label": "Washington Post & PC World",
+        "href": "http://www.washingtonpost.com/wp-dyn/content/article/2008/12/22/AR2008122201980.html"
+      },
+      {
+        "label": "MSNBC & Space.com",
+        "href": "http://www.space.com/businesstechnology/090128-playstation3-blackholes.html"
+      },
+      {
+        "label": "USA Today",
+        "href": "http://content.usatoday.com/communities/sciencefair/post/2008/12/60324700/1"
+      },
+      {
+        "label": "Science Channel: Brink",
+        "href": "http://www.youtube.com/watch?v=rhStjorHgLM"
+      },
+      {
+        "label": "IEEE Spectrum",
+        "href": "http://www.spectrum.ieee.org/apr09/8270"
+      },
+      {
+        "label": "Sony Insider",
+        "href": "http://www.sonyinsider.com/2009/10/05/interview-with-dr-gaurav-khanna/"
+      },
+      {
+        "label": "Ars Technica",
+        "href": "http://arstechnica.com/gaming/news/2010/05/how-removing-ps3-linux-hurts-the-air-force.ars"
+      },
+      {
+        "label": "Wired UK",
+        "href": "http://www.wired.co.uk/news/archive/2010-03/30/sony's-ps3-update-could-affect-supercomputer-users?page=all"
+      },
+      {
+        "label": "FQXi Interview",
+        "href": "http://fqxi.org/community/articles/display/137"
+      },
+      {
+        "label": "BBC Digital Planet Interview",
+        "href": "http://www.bbc.co.uk/programmes/p009bk8b"
+      },
+      {
+        "label": "BBC News Article",
+        "href": "http://www.bbc.co.uk/news/technology-11168150"
+      },
+      {
+        "label": "Forbes Magazine Story",
+        "href": "http://blogs.forbes.com/johnfarrell/2010/11/12/black-holes-and-quantum-loops-more-than-just-a-game/"
+      },
+      {
+        "label": "Defense Systems",
+        "href": "http://www.defensesystems.com/Articles/2010/12/14/Condor-Cluster-Spreads-its-Wings.aspx"
+      },
+      {
+        "label": "Gov Tech Mag",
+        "href": "http://www.govtech.com/technology/PlayStation-3-Providing-Supercomputing-to-Universities.html"
+      },
+      {
+        "label": "Other ..",
+        "href": "http://www.google.com/search?hl=en&q=ps3+khanna+&btnG=Search"
+      },
+      {
+        "label": "Sony PlayStation 3",
+        "href": "http://www.us.playstation.com/PS3"
+      },
+      {
+        "label": "open platform",
+        "href": "http://www.playstation.com/ps3-openplatform/"
+      },
+      {
+        "label": "PowerPC Linux",
+        "href": "http://www.yellowdoglinux.com/"
+      },
+      {
+        "label": "Cell processor",
+        "href": "http://www.research.ibm.com/cell/"
+      },
+      {
+        "label": "Sony",
+        "href": "http://sony.com/"
+      },
+      {
+        "label": "1) the PS3's arrive",
+        "href": "http://gravity.phy.umassd.edu/boxes.jpg"
+      },
+      {
+        "label": "2) the rack arrives",
+        "href": "http://gravity.phy.umassd.edu/rack.jpg"
+      },
+      {
+        "label": "3) front view of the original cluster",
+        "href": "http://gravity.phy.umassd.edu/rackfront_old.jpg"
+      },
+      {
+        "label": "4) side view of the original cluster",
+        "href": "http://gravity.phy.umassd.edu/rackside_old.jpg"
+      },
+      {
+        "label": "5) front view of the upgraded cluster",
+        "href": "http://gravity.phy.umassd.edu/rackfront.jpg"
+      },
+      {
+        "label": "6) side view of the upgraded cluster",
+        "href": "http://gravity.phy.umassd.edu/rackside.jpg"
+      },
+      {
+        "label": "ps3cluster.org",
+        "href": "http://ps3cluster.org/"
+      },
+      {
+        "label": "here is its \u201cbig brother\u201d",
+        "href": "http://gravity.phy.umassd.edu/reefer.html"
+      },
+      {
+        "label": "Phys. Rev. D78 064042 (2008)",
+        "href": "http://arxiv.org/abs/0804.1075"
+      },
+      {
+        "label": "Class. Quant. Grav. 26 015014 (2009)",
+        "href": "http://arxiv.org/abs/0711.0960"
+      },
+      {
+        "label": "PPAM (2009)",
+        "href": "http://arxiv.org/abs/0904.1826"
+      },
+      {
+        "label": "PDCS (2009)",
+        "href": "http://arxiv.org/abs/0909.4039"
+      },
+      {
+        "label": "IJMSSC (2009)",
+        "href": "http://arxiv.org/abs/0911.1565"
+      },
+      {
+        "label": "Phys. Rev. D81 104009 (2010)",
+        "href": "http://arxiv.org/abs/1003.0485"
+      },
+      {
+        "label": "CPC (2010)",
+        "href": "http://arxiv.org/abs/1001.3631"
+      },
+      {
+        "label": "HPCS (2010)",
+        "href": "http://arxiv.org/abs/1006.0663"
+      },
+      {
+        "label": "Class. Quant. Grav. 28 025012 (2011)",
+        "href": "http://arxiv.org/abs/1001.0541"
+      },
+      {
+        "label": "Phys. Rev. D83 124002 (2011)",
+        "href": "http://arxiv.org/abs/1104.0387"
+      },
+      {
+        "label": "Preprint arXiv:1312.5210 (2013)",
+        "href": "http://arxiv.org/abs/1312.5210"
+      },
+      {
+        "label": "Gen. Rel. Grav. 46, 1672 (2014)",
+        "href": "http://arxiv.org/abs/1208.5839"
+      },
+      {
+        "label": "CSC\u201914 (2014)",
+        "href": "http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf"
+      },
+      {
+        "label": "Phys. Rev. D93 041501R (2016)",
+        "href": "https://arxiv.org/abs/1601.05120"
+      },
+      {
+        "label": "Phys. Rev. D96 024020 (2017)",
+        "href": "https://arxiv.org/abs/1705.04949"
+      },
+      {
+        "label": "eLISA mission website",
+        "href": "https://www.elisascience.org"
+      },
+      {
+        "label": "MPI",
+        "href": "http://openmpi.org/"
+      },
+      {
+        "label": "LBNL QD Library",
+        "href": "http://crd.lbl.gov/~dhbailey/mpdist/"
+      },
+      {
+        "label": "top500.org",
+        "href": "http://top500.org/"
+      },
+      {
+        "label": "HPL",
+        "href": "http://netlib.org/benchmark/hpl/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      }
+    ],
+    "reefer": [
+      {
+        "label": "Robert Coyne",
+        "href": "https://web.uri.edu/physics/meet/robert-coyne/"
+      },
+      {
+        "label": "Scott Field",
+        "href": "http://www.math.umassd.edu/~sfield/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "https://web.uri.edu/physics/meet/gaurav-khanna/"
+      },
+      {
+        "label": "Richard Price",
+        "href": "https://en.wikipedia.org/wiki/Richard_H._Price"
+      },
+      {
+        "label": "Scott Hughes",
+        "href": "http://web.mit.edu/sahughes/www/"
+      },
+      {
+        "label": "Param Singh",
+        "href": "https://www.lsu.edu/physics/people/faculty/singh.php"
+      },
+      {
+        "label": "small eight PS3 cluster",
+        "href": "http://gravity.phy.umassd.edu/ps3.html"
+      },
+      {
+        "label": "Center for Scientific Computing and Visualization Research",
+        "href": "http://cscvr.umassd.edu/"
+      },
+      {
+        "label": "pictures of this PS3 \u201creefer\u201d",
+        "href": "http://gravity.phy.umassd.edu/condor/"
+      },
+      {
+        "label": "Gaurav Khanna",
+        "href": "http://www.umassd.edu/engineering/phy/people/facultyandstaff/gauravkhanna/"
+      },
+      {
+        "label": "a media story",
+        "href": "http://www.forbes.com/sites/johnfarrell/2014/05/12/modeling-black-holes-with-sony-playstations-the-next-challenge/"
+      },
+      {
+        "label": "another media story",
+        "href": "http://www.space.com/26943-sony-playstations-calculate-black-hole-motion.html"
+      },
+      {
+        "label": "full length story",
+        "href": "http://www.nytimes.com/2014/12/23/science/an-economical-way-to-save-progress.html"
+      },
+      {
+        "label": "Phys. Rev. D88 104004 (2013)",
+        "href": "http://arxiv.org/abs/1306.1159"
+      },
+      {
+        "label": "Preprint arXiv:1312.5210 (2013)",
+        "href": "http://arxiv.org/abs/1312.5210"
+      },
+      {
+        "label": "Gen. Rel. Grav. 46, 1672 (2014)",
+        "href": "http://arxiv.org/abs/1208.5839"
+      },
+      {
+        "label": "CSC\u201914 (2014)",
+        "href": "http://worldcomp-proceedings.com/proc/p2014/CSC7132.pdf"
+      },
+      {
+        "label": "Phys. Rev. D93 041501R (2016)",
+        "href": "https://arxiv.org/abs/1601.05120"
+      },
+      {
+        "label": "Phys. Rev. D96 024020 (2017)",
+        "href": "https://arxiv.org/abs/1705.04949"
+      },
+      {
+        "label": "eLISA mission website",
+        "href": "https://www.elisascience.org"
+      },
+      {
+        "label": "MPI",
+        "href": "http://openmpi.org/"
+      },
+      {
+        "label": "LBNL QD Library",
+        "href": "http://crd.lbl.gov/~dhbailey/mpdist/"
+      }
+    ]
+  }
+}
